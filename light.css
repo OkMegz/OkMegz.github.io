@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+    color: #222;
+}
+
+.navbar, .footer, footer, .bg-dark {
+    background-color: #fff !important;
+    color: #222 !important;
+}
+
+.bg-light, section.bg-light, .card, .form-control, .btn, .timeline, .container, .card-body {
+    background-color: #f8f9fa !important;
+    color: #222 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, .nav-link, .card-title, .card-text, .form-label, .btn, .footer-social-link, .footer-social-icon, .badge {
+    color: #222 !important;
+}
+
+input, textarea, select, .form-control {
+    background-color: #fff !important;
+    color: #222 !important;
+    border-color: #ccc !important;
+}
+
+.btn-primary, .btn-outline-primary {
+    background-color: #e9ecef !important;
+    border-color: #ccc !important;
+    color: #222 !important;
+}
+
+.btn-outline-secondary, .btn-outline-success {
+    color: #222 !important;
+    border-color: #ccc !important;
+}
+
+.badge.bg-primary {
+    background-color: #e9ecef !important;
+    color: #222 !important;
+}
+
+.footer-social-icon {
+    filter: none;
+}
+
+.footer-social-link:hover .footer-social-icon {
+    filter: brightness(0.2);
+}
+
+::-webkit-scrollbar {
+    background: #e9ecef;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
